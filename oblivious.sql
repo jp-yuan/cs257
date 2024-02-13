@@ -5,7 +5,6 @@ CREATE TABLE Node(
 	label VARCHAR(20),
 	value VARCHAR(255),
 	FOREIGN KEY (parent_id) REFERENCES Node (id),
-	CONSTRAINT CC1 CHECK(TYPE IN ("element", "attribute"))
 )
 
 --insert data from tree1.xml
