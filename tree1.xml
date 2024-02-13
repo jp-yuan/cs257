@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:noNamespaceSchemaLocation="person.xsd" xs:schemaLocation="/Users/jianpengyuan/Desktop/untitled%20folder/person.xsd">
+    <FirstName>Jason</FirstName>
+    <LastName>Lee</LastName>
+    <Age>29</Age>
+    <DOB>1995-02-03</DOB>
+    <FatherName>Jacky Lee</FatherName>
+    <MotherName>Lisa Lee</MotherName>
+</person>

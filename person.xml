@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+ xs:noNamespaceSchemaLocation="person.xsd" xs:schemaLocation="/Users/jianpengyuan/Desktop/untitled%20folder/person.xsd">
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <Age>30</Age>
+    <DOB>1994-02-03</DOB>
+    <FatherName>Jay Doe</FatherName>
+    <MotherName>Lisa Doe</MotherName>
+</person>
+

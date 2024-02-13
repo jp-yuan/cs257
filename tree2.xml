@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<person xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+    xs:noNamespaceSchemaLocation="person.xsd" xs:schemaLocation="/Users/jianpengyuan/Desktop/untitled%20folder/person.xsd">
+    <FirstName>Jack</FirstName>
+    <LastName>Ma</LastName>
+    <Age>31</Age>
+    <DOB>1993-02-03</DOB>
+    <FatherName>John Ma</FatherName>
+    <MotherName>Kyle Ma</MotherName>
+</person>
