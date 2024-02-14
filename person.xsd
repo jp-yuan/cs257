@@ -3,7 +3,6 @@
     <xs:element name="person">
         <xs:complexType>
         <xs:sequence>
-            <xs:element name="ID" type="xs:integer"></xs:element>
             <xs:element name="FirstName" type="xs:string"></xs:element>
             <xs:element name="LastName" type="xs:string"></xs:element>
             <xs:element name="Age">
@@ -15,8 +14,8 @@
                 </xs:simpleType>
             </xs:element>
             <xs:element name="DOB" type="xs:date"></xs:element>
-            <xs:element name="FatherName" type="xs:string"></xs:element>
-            <xs:element name="MotherName" type="xs:string"></xs:element>
+            <xs:element name="FatherName" type="xs:string" default="unknow"></xs:element>
+            <xs:element name="MotherName" type="xs:string" default="unknow"></xs:element>
         </xs:sequence>
     </xs:complexType>
     </xs:element>
