@@ -5,10 +5,73 @@
     version="2.0">
     <xsl:template match="person">
         <html>
-            <head><title>result of applying a stylesheet to person</title></head>
-            <body><h1>person description</h1></body>
+            <head>
+                <title>Result of applying a stylesheet to person</title>
+                <style>
+                    table {
+                    border-collapse: collapse;
+                    width: 20%;
+                    }
+                    th, td {
+                    border: 1px solid black;
+                    padding: 8px; /* Add padding for constant spacing */
+                    text-align: left;
+                    }
+                    th {
+                    background-color: #f2f2f2;
+                    }
+                </style>
+            </head>
+            
+                <h1>person description</h1>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                    <th>DOB</th>
+                    <th>Father Name</th>
+                    <th>Mother Name</th>
+                </tr>
+            
+            
             <xsl:apply-templates/>
         </html>
+    </xsl:template>
+    
+    <xsl:template match="FirstName">
+        <tr>
+        <td><xsl:value-of select="."/></td>
+        </tr>
+    </xsl:template>
+    
+    <xsl:template match="LastName">
+        <tr>
+        <td><xsl:value-of select="."/></td>
+        </tr>
+    </xsl:template>
+    
+    <xsl:template match="Age">
+        <tr>
+        <td><xsl:value-of select="."/></td>
+        </tr>
+    </xsl:template>
+    
+    <xsl:template match="DOB">
+        <tr>
+        <td><xsl:value-of select="."/></td>
+        </tr>
+    </xsl:template>
+    
+    <xsl:template match="FatherName">
+        <tr>
+        <td><xsl:value-of select="."/></td>
+        </tr>
+    </xsl:template>
+    
+    <xsl:template match="MotherName">
+        <tr>
+        <td><xsl:value-of select="."/></td>
+        </tr>
     </xsl:template>
     
 </xsl:stylesheet>
