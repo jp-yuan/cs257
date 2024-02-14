@@ -1,12 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tree_to_table.xsl"?>
 <person xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
- xs:noNamespaceSchemaLocation="person.xsd" xs:schemaLocation="/Users/jianpengyuan/Desktop/untitled%20folder/person.xsd">
-    <ID>959648</ID>
+     xs:schemaLocation="person.xsd">
     <FirstName>John</FirstName>
     <LastName>Doe</LastName>
     <Age>30</Age>
     <DOB>1994-02-03</DOB>
     <FatherName>Jay Doe</FatherName>
     <MotherName>Lisa Doe</MotherName>
+    
+    <FirstName>Alice</FirstName>
+    <LastName>Smith</LastName>
+    <Age>25</Age>
+    <DOB>1999-08-15</DOB>
+    <FatherName>Tom Smith</FatherName>
+    <MotherName>Linda Smith</MotherName>
+    
+    <FirstName>Michael</FirstName>
+    <LastName>Johnson</LastName>
+    <Age>45</Age>
+    <DOB>1979-05-20</DOB>
+    <FatherName>David Johnson</FatherName>
+    <MotherName>Emily Johnson</MotherName>
 </person>
+
 
