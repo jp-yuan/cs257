@@ -16,9 +16,16 @@ WHERE
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
 
+# query for items related to law
+SELECT ?item ?itemLabel
+WHERE {
+  ?item ?predicate wd:Q7748 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
+}
+
 #query for items related to Winnie-the-Pooh
 SELECT ?item ?itemLabel
 WHERE {
-  ?item ?predicate wd:Q3766392.
-  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+  ?item ?predicate wd:Q3766392 .
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
