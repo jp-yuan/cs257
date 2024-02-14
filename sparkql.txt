@@ -15,3 +15,10 @@ WHERE
   FILTER(YEAR(?when) = 1985) .
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
+
+#query for items related to Winnie-the-Pooh
+SELECT ?item ?itemLabel
+WHERE {
+  ?item ?predicate wd:Q3766392.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
