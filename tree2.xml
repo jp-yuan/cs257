@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="tree_to_table.xsl"?>
 <person xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-    xs:schemaLocation="person.xsd">
+ xs:noNamespaceSchemaLocation="person.xsd">
     <FirstName>Jack</FirstName>
     <LastName>Ma</LastName>
     <Age>31</Age>
