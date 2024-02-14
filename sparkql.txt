@@ -6,6 +6,8 @@ WHERE
 ?item wdt:P18 ?pic .
 SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
+## URL to result is : https://w.wiki/9Anq
+
 
 # query for items from 1985
 SELECT ?item ?itemLabel ?when (YEAR(?when) as ?date)
@@ -15,6 +17,9 @@ WHERE
   FILTER(YEAR(?when) = 1985) .
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
+## URL to result is : https://w.wiki/9Anp
+
+
 
 # query for items related to law
 SELECT ?item ?itemLabel
@@ -22,6 +27,9 @@ WHERE {
   ?item ?predicate wd:Q7748 .
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
+## URL to result is : https://w.wiki/9Anf
+
+
 
 #query for items related to Winnie-the-Pooh
 SELECT ?item ?itemLabel
@@ -29,3 +37,4 @@ WHERE {
   ?item ?predicate wd:Q3766392 .
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en" . }
 }
+## URL to result is : https://w.wiki/9Ank
