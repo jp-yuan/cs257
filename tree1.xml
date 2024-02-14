@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="tree_to_table.xsl" ?>
 <person xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
-    xs:noNamespaceSchemaLocation="person.xsd" xs:schemaLocation="/Users/jianpengyuan/Desktop/untitled%20folder/person.xsd">
-    <ID>373054</ID>
+    xs:schemaLocation="person.xsd">
     <FirstName>Jason</FirstName>
     <LastName>Lee</LastName>
     <Age>29</Age>
