@@ -22,7 +22,7 @@ VALUES
 --query for persons born between 1970 and 1980
 SELECT N2.VALUE, N3.VALUE
 FROM Node N1, Node N2, Node N3
-WHERE N1.LABEL="Age" AND N2.LABEL="FirstName" AND N3.LABEL="LastName"
-AND N1.VALUE BETWEEN 1970 AND 1980
+WHERE N1.LABEL= 'DOB' AND N2.LABEL= 'FirstName' AND N3.LABEL= 'LastName'
+AND FORMAT(N1.VALUE, '%Y-%m-%d') BETWEEN '1970-01-01' AND '1980-12-31'
 AND N1.parent_id = N2.parent_id
 AND N1.parent_id = N3.parent_id
