@@ -12,7 +12,6 @@ INSERT INTO Node (parent_id, label, value)
 VALUES 
 	(NULL, 'family', NULL),
 	(1, 'person', NULL),
-	(2, 'ID', 373054),
 	(2, 'FirstName', 'Jason'), 
 	(2, 'LastName', 'Lee'), 
 	(2, 'Age', 29),
