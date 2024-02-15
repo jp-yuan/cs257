@@ -39,39 +39,35 @@
     </xsl:template>
     
     <xsl:template match="FirstName">
-        <tr>
+        
         <td><xsl:value-of select="."/></td>
-        </tr>
+        
     </xsl:template>
     
     <xsl:template match="LastName">
-        <tr>
+        
         <td><xsl:value-of select="."/></td>
-        </tr>
+        
     </xsl:template>
     
     <xsl:template match="Age">
-        <tr>
+        
         <td><xsl:value-of select="."/></td>
-        </tr>
+        
     </xsl:template>
     
     <xsl:template match="DOB">
-        <tr>
+        
         <td><xsl:value-of select="."/></td>
-        </tr>
+        
     </xsl:template>
     
     <xsl:template match="FatherName">
-        <tr>
         <td><xsl:value-of select="."/></td>
-        </tr>
     </xsl:template>
     
     <xsl:template match="MotherName">
-        <tr>
         <td><xsl:value-of select="."/></td>
-        </tr>
     </xsl:template>
     
 </xsl:stylesheet>
