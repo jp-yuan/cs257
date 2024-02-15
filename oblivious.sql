@@ -4,8 +4,8 @@ CREATE TABLE Node(
 	parent_id INT,
 	label VARCHAR(20),
 	value VARCHAR(255),
-	FOREIGN KEY (parent_id) REFERENCES Node (id),
-)
+	FOREIGN KEY (parent_id) REFERENCES Node (id)
+);
 
 --insert data from tree1.xml
 INSERT INTO Node (parent_id, label, value)
@@ -15,10 +15,10 @@ VALUES
 	(2, 'ID', 373054),
 	(2, 'FirstName', 'Jason'), 
 	(2, 'LastName', 'Lee'), 
-	(2, 'Age', 29)
+	(2, 'Age', 29),
 	(2, 'DOB', '1995-02-03'), 
 	(2, 'FatherName', 'Jacky Lee'), 
-	(2, 'MotherName', 'Lisa Lee')
+	(2, 'MotherName', 'Lisa Lee');
 	 
 --query for persons born between 1970 and 1980
 SELECT N2.VALUE, N3.VALUE
