@@ -15,7 +15,7 @@ VALUES
 	(2, 'FirstName', 'Jason'), 
 	(2, 'LastName', 'Lee'), 
 	(2, 'Age', 29),
-	(2, 'DOB', '1995-02-03'), 
+	(2, 'DOB', '1975-02-03'), 
 	(2, 'FatherName', 'Jacky Lee'), 
 	(2, 'MotherName', 'Lisa Lee');
 	 
